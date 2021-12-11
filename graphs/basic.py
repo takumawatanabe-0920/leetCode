@@ -24,6 +24,21 @@ class Graph:
         for vertex in self.graph[cur]:
           if(vertex not in visited):
             stack.append(vertex)
+    
+    def dfs(self, s):
+      stack = []
+      visited = set()
+      stack.append(s)
+      while len(stack):
+        cur = stack[-1]
+        stack.pop()
+
+        if cur not in visited:
+          print(cur, 'dfs')
+          visited.add(cur)
+        for vertex in self.graph[cur]:
+          if(vertex not in visited):
+            stack.append(vertex)
       
     def bfs(self, s):
       queue = []
