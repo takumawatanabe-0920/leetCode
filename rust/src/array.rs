@@ -1,2 +1,2 @@
-pub mod containsDuplicate;
-pub mod validAnagram;
+pub mod contains_duplicate;
+pub mod valid_anagram;
