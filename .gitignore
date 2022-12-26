@@ -1,1 +1,4 @@
-/rust/target/debug/*
+**/rust/target/debug/**
+**/rust/target/debug/.fingerprint/**
+rust/target/debug/.fingerprint/rust-ff34009186401b73/output-bin-rust
+rust/target/debug/.fingerprint/rust-32260248dbccac45/output-test-bin-rust
